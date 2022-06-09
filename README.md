@@ -4,9 +4,6 @@ Inspired by [the original Swift UI implementation](https://twitter.com/philipcda
 
 ## Output
 
-https://user-images.githubusercontent.com/72978007/172932175-c0321b05-8ddc-4216-b848-ccbc5685c4a2.mov
-
-
-
+![alt text](https://github.com/MicroProgramer/flutter_cool_card_swiper/blob/master/output.gif "Output")
 
 More details coming soon....
