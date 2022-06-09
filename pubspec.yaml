@@ -1,7 +1,7 @@
 name: flutter_cool_card_swiper
 description: Flutter Cool Card Swiper with smooth animation
 version: 0.0.1
-homepage:
+homepage: https://github.com/MicroProgramer/flutter_cool_card_swiper/
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  equatable: ^2.0.3
+
 
 dev_dependencies:
   flutter_test:
