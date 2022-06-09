@@ -4,6 +4,9 @@ Inspired by [the original Swift UI implementation](https://twitter.com/philipcda
 
 ## Output
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/cool-card-swiper.appspot.com/o/ezgif-1-816ed067fb.gif?alt=media&token=c9369dc9-7e4c-470b-9419-030ca96e2586 "Output")
+https://user-images.githubusercontent.com/72978007/172932175-c0321b05-8ddc-4216-b848-ccbc5685c4a2.mov
+
+
+
 
 More details coming soon....
