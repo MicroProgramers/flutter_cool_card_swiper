@@ -9,10 +9,12 @@ class SwiperCardItem extends StatefulWidget {
   final SwiperCard card;
   final Function onAnimationTrigger;
   final Function onVerticalDragEnd;
+  final bool? isDisableRotate;
 
   const SwiperCardItem({
     Key? key,
     required this.card,
+    this.isDisableRotate,
     required this.onAnimationTrigger,
     required this.onVerticalDragEnd,
   }) : super(key: key);
@@ -157,7 +159,7 @@ class _CardState extends State<SwiperCardItem>
               child: Transform.translate(
                 offset: Offset(0, slideDownAnimation.value),
                 child: Transform.rotate(
-                  angle: rotationAnimation.value * (math.pi / 180),
+                  angle:widget.isDisableRotate==true? 0.0:rotationAnimation.value * (math.pi / 180),
                   alignment: Alignment.center,
                   child: Transform.scale(
                     scale: scaleAnimation.value,

@@ -6,10 +6,12 @@ import 'package:flutter_cool_card_swiper/widgets/swiper_card_wrapper.dart';
 
 class CoolSwiper extends StatefulWidget {
   final List<Widget> children;
+  final bool? isDisableRotate;
 
   const CoolSwiper({
     Key? key,
     required this.children,
+    this.isDisableRotate,
   }) : super(key: key);
 
   @override
@@ -30,6 +32,7 @@ class _CoolSwiperState extends State<CoolSwiper>
         _cards.length,
         (i) {
           return SwiperCardItem(
+            isDisableRotate: widget.isDisableRotate,
             key: ValueKey('__animated_card_${i}__'),
             card: _cards[i],
             onAnimationTrigger: _onAnimationTrigger,
